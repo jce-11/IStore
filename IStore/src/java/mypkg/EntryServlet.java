@@ -77,7 +77,7 @@ public class EntryServlet extends HttpServlet {
          out.println("<input type='reset' value='CLEAR' />");
          out.println("</form>");
          HttpSession session = request.getSession(false); // check if session exists
-         /*
+         
          if (session != null) {
             Cart cart;
             synchronized (session) {
@@ -89,7 +89,7 @@ public class EntryServlet extends HttpServlet {
                }
             }
          }
-*/
+
          try{
              
              String name = (String) session.getAttribute("username");
