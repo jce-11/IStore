@@ -118,7 +118,7 @@ public class QueryServlet extends HttpServlet {
                out.println("<p><a href='start'>Back to Select Menu</a></p>");
                
                HttpSession session = request.getSession(false); // check if session exists
-               /*
+               
                if (session != null) {
                   Cart cart;
                   synchronized (session) {
@@ -130,7 +130,7 @@ public class QueryServlet extends HttpServlet {
                      }
                   }
                }
-*/
+
                out.println("</div>");
             }
          }
