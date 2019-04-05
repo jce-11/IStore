@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="start">IShop</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:8080/MyShop/search?category=TABLET&search=">Tablets</a>
+      
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:8080/MyShop/search?category=PHONE&search=">Phones</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="cart?todo=view">Cart</a>
+    </li>
+    
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" name='search'>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      
+    </form>
+  <a class="nav-link" href="Login.jsp" >Login</a>
+</nav>
